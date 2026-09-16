@@ -1,0 +1,35 @@
+# Draws the contribution graph as a snake and publishes it to the `output` branch,
+# where the profile README loads it from. Runs twice a day, on every push, and on demand.
+name: Contribution snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Generate the snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=#F5A524&color_dots=#ebedf0,#fde7c0,#fbc96b,#f5a524,#b86e00
+            dist/snake-dark.svg?palette=github-dark&color_snake=#F5A524&color_dots=#161b22,#4a3410,#8a5c12,#d38b14,#f5a524
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: Update the contribution snake
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
