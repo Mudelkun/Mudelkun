@@ -8,6 +8,7 @@
 
 <br />
 
+<a href="https://www.rodarly.me"><img src="https://img.shields.io/badge/Portfolio-rodarly.me-2F81F7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio: rodarly.me" /></a>
 <a href="mailto:perilusrodarly@gmail.com"><img src="https://img.shields.io/badge/Email-perilusrodarly%40gmail.com-F5A524?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://www.instagram.com/rod_arly/"><img src="https://img.shields.io/badge/Instagram-rod__arly-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 
@@ -19,11 +20,6 @@
 
 I'm a 19-year-old computer science student and full-stack developer. I taught myself to code after finishing
 high school in 2025, and I've been shipping real software ever since.
-
-- 🏫 I built **[Formel](https://www.formelapp.com)**, a school management platform my family's private school in Haiti runs on every day, with more than 400 users
-- 💇 I'm building **[Louvo](https://www.louvo.app)**, an AI hairstyle try-on on the web and mobile
-- 🌱 I learn fast and care about the whole product: the database, the API, the interface and the people using it
-- 🗣️ I speak English, French and Haitian Creole
 
 ---
 
@@ -59,24 +55,6 @@ high school in 2025, and I've been shipping real software ever since.
     </td>
   </tr>
 </table>
-
----
-
-### Tech stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,postgres,tailwind,vite,html,css,cloudflare,git,vscode&perline=7" alt="TypeScript, JavaScript, React, Next.js, Node.js, Express, PostgreSQL, Tailwind CSS, Vite, HTML, CSS, Cloudflare, Git, VS Code" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
-  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo" />
-  <img src="https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white" alt="Fastify" />
-  <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black" alt="Drizzle ORM" />
-  <img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe" />
-  <img src="https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white" alt="Clerk" />
-  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" alt="Railway" />
-</p>
 
 ---
 
