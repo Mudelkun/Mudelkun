@@ -28,8 +28,8 @@ high school in 2025, and I've been shipping real software ever since.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://www.formelapp.com"><img src="assets/formel.jpg" alt="Formel dashboard" /></a>
-      <h3><a href="https://www.formelapp.com">Formel</a></h3>
+      <a href="https://www.rodarly.me/formel"><img src="assets/formel.jpg" alt="Formel dashboard" /></a>
+      <h3><a href="https://www.rodarly.me/formel">Formel</a></h3>
       <p>A complete school management platform for Haitian private schools: enrolment, fees and payments, payroll, attendance, grades and report cards, with dedicated portals for teachers, students and parents.</p>
       <p><b>In production</b> · 400+ users · private codebase</p>
       <p>
